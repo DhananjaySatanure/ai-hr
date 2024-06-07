@@ -39,7 +39,7 @@ header = st.container()
 
 
 with header: 
-    st.title('Welcome to the Awsome Resume Analyser')
+    st.title('Welcome to JSPM')
 
 df = pd.read_csv('data/Dataset/UpdatedResumeDataSet.csv', encoding='utf-8')
 
